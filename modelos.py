@@ -78,4 +78,4 @@ if st.sidebar.button("Simular Agentes"):
 
 # Footer
 st.sidebar.write("---")
-st.sidebar.write("Desarrollado por [Tu Nombre](https://github.com/tuusuario)")
+st.sidebar.write("Desarrollado por [Profesor Bill Papas](https://billpapas2025.github.io/pyquickstart/)")
