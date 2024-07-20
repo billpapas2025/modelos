@@ -68,7 +68,6 @@ if st.sidebar.button("Simular Agentes"):
     for agent in agents:
         st.write(f"{agent.name} completó tareas en los tiempos: {agent.completion_times}")
         
-    # Visualización de las tareas completadas por cada agente
     all_times = {"Tiempo": [], "Agente": []}
     for agent in agents:
         all_times["Tiempo"].extend(agent.completion_times)
